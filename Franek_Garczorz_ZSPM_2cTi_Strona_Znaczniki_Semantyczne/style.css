@@ -1,0 +1,56 @@
+body{
+    background-color: #F9FADA;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    width: 1000px;
+}
+
+header{
+    background-color: #000000;
+}
+
+h1.tytul{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+main{
+    text-align: center;
+}
+
+nav{
+    float: left;
+    background-color: #FC6508;
+    width: 120px;
+    min-height: 620px;
+    padding: 10px;
+}
+ article{
+    background-color: #F9FAFA;
+    width: 640px;
+    padding: 20px;
+    float: left;
+    height: 600px;
+ }
+
+ aside{
+    background-color: lightgray;
+    float: left;
+    width: 160px;
+    min-height: 620px;
+    padding: 10px;
+    padding-top: 10px;
+ }
+
+ footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    clear: both;
+    padding: 20px;
+    
+ }
