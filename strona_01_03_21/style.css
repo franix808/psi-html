@@ -1,0 +1,57 @@
+body{
+    background-color: #333;
+    color: #fff;
+}
+
+header{
+    background-color: #000;
+    box-sizing: border-box;
+}
+
+main{
+    align-items: center;
+    text-align: center;
+    text-justify: auto;
+    position: absolute;
+}
+
+h1{
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-bar{
+    display: flex;
+    position: fixed;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: darkorange;
+    height: 8%;
+    width: 100%;
+}
+
+nav{
+    position: relative;
+    margin: auto;
+    background-color: #000;
+    width: 20%;
+    line-height: 40px;
+    border: 5px solid darkorange;
+    box-shadow: 3px 3px 4px #000;
+    box-sizing: border-box;
+}
+    nav:hover{
+        background-color: darkorange;
+        border: 5px solid #000;
+    }
+
+section{
+    position: absolute;
+}
+
+footer{
+    text-align: center;
+    box-sizing: border-box;
+    align-items: center;
+}
