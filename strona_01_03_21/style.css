@@ -1,11 +1,14 @@
 body{
     background-color: #333;
     color: #fff;
+    font-family: sans-serif;
 }
 
 header{
     background-color: #000;
     box-sizing: border-box;
+    margin-left: -8px;
+    width: 100vw;
 }
 
 main{
@@ -13,11 +16,22 @@ main{
     text-align: center;
     text-justify: auto;
     position: absolute;
+    margin-left: -8px;
 }
 
-h1{
-    padding: 10px;
+h1.top{
+    padding: .5vh;
     text-align: center;
+}
+
+h2.bottom{
+    /* padding: 10px; */
+    text-align: center;
+}
+
+h3{
+    display: inline-block;
+    height: ;
 }
 
 .nav-bar{
@@ -27,31 +41,66 @@ h1{
     text-align: center;
     box-sizing: border-box;
     background-color: darkorange;
-    height: 8%;
+    height: 13%;
     width: 100%;
 }
 
 nav{
+    display:flexbox;
     position: relative;
     margin: auto;
     background-color: #000;
-    width: 20%;
-    line-height: 40px;
+    /* width: 10vw; */
+    flex-wrap: wrap;
+    line-height: 80%;
     border: 5px solid darkorange;
     box-shadow: 3px 3px 4px #000;
     box-sizing: border-box;
+    flex-basis: 30vh;
 }
+
     nav:hover{
         background-color: darkorange;
         border: 5px solid #000;
     }
 
 section{
+    display: flexbox;
     position: absolute;
+    box-sizing: border-box;
+    text-align: center;
+    /* background-color: #fff; */
+    top: 20vh;
+    width: 100vw;
+    /* padding-inline-start: 10vh; */
 }
 
-footer{
-    text-align: center;
+article{
+    color: black;
+    display: block;
+    position: relative;
     box-sizing: border-box;
-    align-items: center;
+    width: 25%;
+    height: 50vh;
+    background-color: #fff;
+    margin-inline: 30vh;
+    /* padding: .5vh; */
+    /* padding-inline: .5vh; */
+    /* text-align: left; */
+     /* text-justify: auto; */
 }
+
+ p{
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+} 
+
+ footer{
+    background-color: #222;
+    position: absolute;
+    box-sizing: border-box;
+    width: 100vw;
+    margin-top: 100%;
+    margin-inline: -.5vw;
+} 
