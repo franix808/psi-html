@@ -1,0 +1,42 @@
+body{
+    background: #333;
+    font-family: "Roboto";
+}
+
+header{
+    background: wheat;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+main{
+    
+}
+
+nav-bar{
+    
+}
+
+    nav{
+        
+    }
+
+section{
+    
+}
+
+article{
+    
+}
+
+footer{
+    background: wheat;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
