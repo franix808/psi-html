@@ -2,3 +2,4 @@ www.wikipedia.pl/.com
 www.clipart.info
 www.iconfinder.com
 www.angular.io
+www.w3.org

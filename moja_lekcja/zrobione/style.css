@@ -36,12 +36,13 @@ nav-bar{
         box-sizing: border-box;
         border: 1px solid gray;
         border-radius: 10px;
-        margin: 1vh;
+        /* margin: 1vh; */
         height: 80%;
         width: 15vw;
     }
 
 section{
+    /* background-color: green; */
     display: flex;
     position: relative;
     justify-content: center;
@@ -62,7 +63,7 @@ article{
     border: 1px solid yellow;
     border-radius: 10px;
     width: 50vw;
-    margin: 5vh;
+    margin: 5vw;
     padding: 10px;
 }
 
