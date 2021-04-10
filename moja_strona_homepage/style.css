@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #333;
+    display: flex;
+}
+
+main{
+    width: 100vw;
+    height: 100%;
+}
+
+header{
+    background: transparent;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    position: absolute;
+    padding: 10px;
+    border: solid #000 8px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+    .hamburger, nav{
+        position: absolute;
+    }
+
+    .hamburger{
+        display: flex;
+        flex-direction: column;
+        background: silver;
+        border-top: solid #fff 3px;
+        padding: 10px;
+        left: 0;
+        margin: 1vw;
+        width: 45px;
+        height: 45px;
+    }
+        .hamburger::before, .hamburger::after{
+            position: absolute;
+            left: 0;
+            content: '';
+            width: 45px;
+            /* height: 1px; */
+            background: #fff;
+            border-top: solid #fff 3px;
+        }
+
+        .hamburger::after{
+            transform: translateY(10px);
+        }
+
+    .logo{
+        background: #fff;
+        padding: 10px;
+        left: 45%;
+        right: 45%;
+        width: fit-content;
+        height: auto;
+
+    }
+        img{
+            width: 8vh;
+        }
+
+    nav-box{
+        width: 200px;
+        height: 20px;
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        background: green;
+        right: 0;
+        margin: 1vw;
+    }
+        .nav1{
+            margin-right: 50%;
+        }
+
+        .nav2{
+            margin-left: 50%;
+        }
+        /* nav{
+        background: #fff;
+        right: 0;
+        width: fit-content;
+        margin: 10px;
+        } */
+
+content{
+    
+}
+    content{
+        display: flex;
+        position: relative;
+        width: 80vw;
+        height: a;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+        margin-top: 20vh;
+        background: #222;
+    }
+
+        article{
+            display: flex;
+            position: relative;
+            background: aqua;
+            width: 25vw;
+            height: 40vh;
+            padding: 15px;
+            margin: 5%;
+            border: solid white 10px;
+            border-radius: 10px;
+        }
+
+    footer{
+        background: white;
+        display: flex;
+        position: absolute;
+        width: 100%;
+        bottom: 0%;
+        justify-content: center;
+    }
