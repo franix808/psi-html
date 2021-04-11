@@ -125,8 +125,8 @@ header{
     background: green;
     position: absolute;
     top: 50%;
-    transform: translateX(-90%);
-    transition: .5s .2 ease-in-out;
+    left: -7%;
+    transition: .5s .2s ease-in-out;
     width: 9vw;
     height: 25vh;
     justify-content: center;
@@ -135,7 +135,8 @@ header{
 }
 
 .navigation-box:hover{
-    transform: translateX(1%)
+    transform: translateX(80%);
+    transition: .5s .3s ease-in-out;
 }
 
     .navigation-list{
