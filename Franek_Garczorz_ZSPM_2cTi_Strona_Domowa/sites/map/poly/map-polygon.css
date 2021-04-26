@@ -183,7 +183,7 @@ content{
     display: flex;
     position: relative;
     width: 80vw;
-    height: a;
+    height: 60vh;
     justify-content: space-around;
     align-items: center;
     margin: auto;
@@ -191,23 +191,15 @@ content{
     background: #222;
 }
 
-    article{
-        display: flex;
-        position: relative;
-        background: #f9f6ef;
-        width: 25vw;
-        min-height: 40vh;
-        /* height: auto; */
-        padding: 15px;
-        margin: 5%;
-        border: solid #333 10px;
-        border-radius: 10px;
-        justify-content: center;
-        text-align: center;
-        align-items: flex-center;
-        /* flex-direction: row; */
-        flex-wrap: wrap;
+    .map{
+        width: auto;
+        height: auto;
     }
+
+        #floppa-image{
+            width: 300px;
+        }
+
 footer{
     display: flex;
     position: absolute;
